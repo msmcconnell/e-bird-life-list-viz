@@ -1,0 +1,5 @@
+ddgs
+requests
+numpy
+pillow
+scipy

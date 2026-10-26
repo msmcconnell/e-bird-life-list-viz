@@ -1,0 +1,16 @@
+e-bird-api-key.txt
+__pycache__/
+
+# Downloaded photos, metadata, color cache and log (src/fetch_inat.py)
+data/images/
+data/fetch.log
+
+# Rendered images (src/mosaic.py, src/render.py, src/review.py); layout.json,
+# layout.csv and replacements.csv stay tracked since they hold review decisions
+data/mosaic/*/mosaic.jpg
+data/mosaic/*/mosaic_debug.jpg
+data/mosaic/*/review_sheet.jpg
+data/mosaic/*/reference.png
+
+# src/search.py output
+downloaded_image.png
